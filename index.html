@@ -4,10 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1>Teste 1</h1>
-    <h2>testando de novo</h2>
+
+    <center><h1>Cadastro de Alunos </h1>
+    <p>Olá! 
+        Preencha o formulário a seguir para demonstrar interesse em um dos cursos de nossa escola. <br>
+       Caso uma nova vaga seja ofertada, entraremos em contato com você.</p> 
+
+    </center>
+
+    <p><b>Informe seu nome completo:</b> </p>
+        <form action="file:///C:/Users/wilma/OneDrive/Documentos/IFSP%20-%20TADS/2022.01/DW1/Aula_23.02/index.html" method="get">
+            <textarea rows="2" cols="50" name="feedback">
+         </textarea>
+    <p><b>Informe seu endereço:</b> </p><br>
+            <textarea rows="2" cols="50" name="feedback">
+        </textarea>
+            <br>
+        </form>
+
+    </hr>
+
+
+
+<hr>
+<p><b>Selecione sua cidade:</b> </p>
+        <select name="cidades">
+            <option value="Campinas">Campinas</option><br>
+            <option value="Hortolândia">Hortolândia</option><br>
+            <option value="Sumaré">Sumaré</option><br>
+            <option value="Valinhos">Valinhos</option><br>
+            <option value="Vinhedo">Vinhedo</option><br>
+
+        </select>
+
+</HR>
+
+<hr>
+<p><b>Informe o sexo:</b> </p>
+        <select name="sexo">
+            <option value="fem">Feminino</option><br>
+            <option value="masc">Masculino</option><br>
+            <option value="nb">Não Binário</option><br>
+            <option value="na">Prefiro não responder</option><br>
+
+        </select>
+</hr>
+
+<hr>
+<p><b>Data de Nascimento:</b> </p>
+        <input type="date" id="nascimento" name="nascimento">
+
+
+</hr>
+
+<HR>
+    <div>
+    <p><b>Informe o curso desejado:</b> </p>
+       <input type="checkbox" name="Análise e Desenvolvimento de Sistemas" value="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas<br>
+       <input type="checkbox" name="Técnico em Informática" value="Técnico em Informática">Técnico em Informática<br>
+       <input type="checkbox" name="Técnico em Eletrônica" value="Técnico em Eletrônica">Técnico em Eletrônica<br>
+       <input type="checkbox" name="Pedagogia" value="Pedagogia">Pedagogia<br>
+    </div>
+   </HR>
+
+<HR>
+    <p><b>Faça o Upload de seu histórico escolar:</b> </p>
+        <input type="file" name="filetoupload">
+
+</HR>
+
+    
 </body>
+<BR><BR>
+<input type="submit" value="Enviar">
 </html>
